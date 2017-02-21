@@ -6,8 +6,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example</groupId>
-  <artifactId>LiftToolkit</artifactId>
-  <version>1</version>
+  <artifactId>LiftJar</artifactId>
+  <version>2</version>
   <packaging>jar</packaging>
 
   <properties>
