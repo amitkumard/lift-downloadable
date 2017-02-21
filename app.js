@@ -100,8 +100,8 @@ app.get('/manifest.json', function(req, res){
 	  console.log(filenameWithPath);
 	 
 	});
-	app.get('/LiftToolkit-1.jar', function(req, res){
-	    var filenameWithPath = __dirname+'/public/LiftToolkit-1.jar';
+	app.get('/LiftJar-2.jar', function(req, res){
+	    var filenameWithPath = __dirname+'/public/LiftJar-2.jar';
 	    fs.stat(filenameWithPath, function(err, stats) {
 	        res.setHeader('content-type', 'binary');
 	        res.setHeader('content-length', stats.size);
