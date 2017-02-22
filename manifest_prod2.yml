@@ -3,7 +3,7 @@ applications:
 - name: lift-downloadable-prod-2
   framework: node
   runtime: node08
-  memory: 512M
+  memory: 256M
   instances: 1
   host: lift-downloadable-prod-2
   path: .
