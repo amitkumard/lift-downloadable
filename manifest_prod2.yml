@@ -1,0 +1,10 @@
+---
+applications:
+- name: lift-downloadable-prod-2
+  framework: node
+  runtime: node08
+  memory: 512M
+  instances: 1
+  host: lift-downloadable-prod-2
+  path: .
+  command: node app.js
