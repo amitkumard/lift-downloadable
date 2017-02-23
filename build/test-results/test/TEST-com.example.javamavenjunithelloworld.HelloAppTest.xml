@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.javamavenjunithelloworld.HelloAppTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-02-23T02:12:23" hostname="Amits-MacBook-Pro.local" time="1.439">
+  <properties/>
+  <testcase name="testMain" classname="com.example.javamavenjunithelloworld.HelloAppTest" time="0.246"/>
+  <testcase name="testWrongArgument" classname="com.example.javamavenjunithelloworld.HelloAppTest" time="0.944"/>
+  <testcase name="testHelloError" classname="com.example.javamavenjunithelloworld.HelloAppTest" time="0.219"/>
+  <testcase name="testDefaultArgument" classname="com.example.javamavenjunithelloworld.HelloAppTest" time="0.004"/>
+  <testcase name="classInstanceForCodeCoverageTest" classname="com.example.javamavenjunithelloworld.HelloAppTest" time="0.004"/>
+  <system-out><![CDATA[Hello!
+Hello!
+Hello!
+Hello!
+Hello!
+Hello!
+Hello!
+]]></system-out>
+  <system-err><![CDATA[I don't understand the parameter you passed me. Is it a number? Parameter was: [bicycle]
+Something went wrong: Nope.
+]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestCode" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-02-23T02:12:24" hostname="Amits-MacBook-Pro.local" time="3.115">
+  <properties/>
+  <testcase name="checkResponseCode" classname="TestCode" time="3.115"/>
+  <system-out><![CDATA[
+Sending 'GET' request to URL : https://lift-downloadable-amit-1.mybluemix.net/manifest.json
+Response Code : 200
+One called: {"files": [{"checksum": "lYR9uY643rXblnfwTSFqaG/ws/Ma46+0jek3duwqyb8=", "name": "LiftJar-2.jar", "size": 1001859}], "version": "2.0.2.1035"}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
