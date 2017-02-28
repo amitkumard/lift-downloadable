@@ -8,11 +8,11 @@ import static org.junit.Assert.*;
 
 import com.example.javamavenjunithelloworld.Code;
 
-public class TestCode 
+public class TestCode
 {
 	@Test
 	public void checkResponseCode()
 	{
-		assertEquals(200, Code.getResponseCode());
+		assertEquals(400, Code.getResponseCode());
 	}
 }

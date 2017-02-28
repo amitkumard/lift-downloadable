@@ -3,7 +3,7 @@ applications:
 - name: lift-downloadable-amit-1
   framework: node
   runtime: node08
-  memory: 256M
+  memory: 512M
   instances: 1
   host: lift-downloadable-amit-1
   path: .
