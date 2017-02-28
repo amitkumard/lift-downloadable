@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestCode
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.918 sec <<< FAILURE! - in TestCode
-checkResponseCode(TestCode)  Time elapsed: 1.83 sec  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.133 sec <<< FAILURE! - in TestCode
+checkResponseCode(TestCode)  Time elapsed: 1.985 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<400> but was:<404>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:743)
