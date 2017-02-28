@@ -1,10 +1,10 @@
 ---
 applications:
-- name: greenapp_amit
+- name: greenapp-amit
   framework: node
   runtime: node08
   memory: 512M
   instances: 1
-  host: greenapp_amit
+  host: greenapp-amit
   path: .
   command: node app.js

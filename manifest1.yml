@@ -1,10 +1,10 @@
 ---
 applications:
-- name: blueapp_amit
+- name: blueapp-amit
   framework: node
   runtime: node08
   memory: 512M
   instances: 1
-  host: blueapp_amit
+  host: blueapp-amit
   path: .
   command: node app.js
