@@ -146,7 +146,7 @@ else
   mvn -Dtest=Test* test
   rc=$?
   if [[ $rc -ne 0 ]] ; then
-    echo 'Tests failed ... Rolling back update to Blue App'; exit $rc
+    echo 'Tests failed ... Rolling back update to Blue App'
     echo "######################################################################################"
     echo "############################ Copy Green App to Blue App ##############################"
     echo "######################################################################################"
