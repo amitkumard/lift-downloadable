@@ -1,10 +1,10 @@
 ---
 applications:
-- name: lift-downloadable-amit-2
+- name: greenapp_amit
   framework: node
   runtime: node08
-  memory: 256M
+  memory: 512M
   instances: 1
-  host: lift-downloadable-amit-2
+  host: greenapp_amit
   path: .
   command: node app.js
