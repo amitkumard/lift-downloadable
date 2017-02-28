@@ -70,7 +70,7 @@ echo "##########################################################################
 blue_app=`cf apps | grep $1 | wc -l`
 green_app=`cf apps | grep $4 | wc -l`
 
-if [ $blue_app != 1 ] && [ $green_app !l= 1 ]; then
+if [ $blue_app != 1 ] && [ $green_app != 1 ]; then
   first_deployment='true'
 else
   first_deployment='false'
