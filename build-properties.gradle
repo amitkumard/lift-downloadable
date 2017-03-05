@@ -1,0 +1,12 @@
+task displayProperties << {
+   displaySystemProperties()
+}
+
+def displaySystemProperties()
+{
+  println "\n=== System Properties ==="
+  println "Cloudant Host : ${System.properties['cloudant.url']}"
+  println "Cloudant Host : ${System.properties['cloudant.user']}"
+  println "Cloudant Host : ${System.properties['cloudant.password']}"
+
+}
