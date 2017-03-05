@@ -13,6 +13,6 @@ public class TestCode
 	@Test
 	public void checkResponseCode()
 	{
-		assertEquals(400, Code.getResponseCode());
+		assertEquals(200, Code.getResponseCode());
 	}
 }

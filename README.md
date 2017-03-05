@@ -1,4 +1,4 @@
-This is the project used for lift sling-shot download component. 
+This is the project used for lift slingshot download component. 
 
 It has nine different URLs 
 - URL's for downloading installers for each supported OS (Linux, Mac and Windows).
