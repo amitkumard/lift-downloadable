@@ -10,4 +10,3 @@ It has nine different URLs
 - URL for sample file which is being used in monitoring component.
 - URL for manifest.json and liftpayload.zip which are used to support Auto-upgrade of the SS.
 
-Installer file URL's are the only URL's published via Lift UI. 
